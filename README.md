@@ -10,6 +10,6 @@ Third task is to design the power system for the robot.
 
 the page contains:
 
-1- battery choice analysis./n
-2- the edited servo arm code in order to use one arduino for both the arm servo motors and motor drivers./n
-3-TinkerCad simulation and fritzing schematics for L298D motor driver./n
+1- battery choice analysis.  
+2- the edited servo arm code in order to use one arduino for both the arm servo motors and motor drivers.  
+3-TinkerCad simulation and fritzing schematics for L298D motor driver.  
