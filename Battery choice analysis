@@ -1,0 +1,45 @@
+Needed system voltages:
+5V for arduino and the L298D motor driver. 
+12V for the wheel driving motors. 
+
+Comparison:
+------------------------------------------------------------------------
+battery type      	voltage
+Li-ion and li-poly      3.7       
+
+notes:
+
+first case:
+1- needs a dedicated battery 	
+management system for 3 cells in series.
+2- needs a buck converter to get 5V
+for the arduino and L298D since it exceeds 12v fully charged, and the L298D should not be used for stepping down the voltage.
+
+second case:
+3- use one cell and a boost converter to get 12V,
+depending on the motor power this is also possible and simpler.
+
+-----------------------------------------------------------------------
+battery type      voltage
+lead-acid         12v  
+
+notes:
+1- has lower energy density than the lithium type
+2- needs a power adapter for charging.
+3- needs a protection circuit.
+-----------------------------------------------------------------------
+decision: 
+first choice:
+use a 12v power bank like this one:
+https://www.amazon.com/TalentCell-Rechargeable-12000mAh-Multi-led-indicator/dp/B00ME3ZH7C/ref=sr_1_2?dchild=1&keywords=12v+power+bank&qid=1625250654&sr=8-2
+
+features:
+1- has 12V and 5V.
+2- comes with a charger.
+3- has all the protection features. 
+4- has high energy density.
+5- reusable in other projects.
+
+second choice:
+a 5V power bank with a boost converter.
+same features of the one above with a drawback of using an external boost converter.
