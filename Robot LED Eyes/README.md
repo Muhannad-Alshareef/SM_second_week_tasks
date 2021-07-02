@@ -1,4 +1,4 @@
-The LED design can range from very simple to beautifully complex,
+The LED design can range from very simple to beautifully complex,  
 for example, the LEDs could vary in brightness or blink depending on the robot actions,
 but since not enough information is given on the robot, this is a simple 2 LED design,
 
